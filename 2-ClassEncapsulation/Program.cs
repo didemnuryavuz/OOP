@@ -76,7 +76,31 @@ namespace _2_ClassEncapsulation
             // };  
             #endregion
 
+            #region Cocuk
+            Cocuk cocuk = new Cocuk();
+            cocuk.Ad = "Ali";
+            //cocuk.Boyu = 11; Hata Verir cunku set edilemez readonly property
 
+            //Exception firlatildigi anda programin sonlanmamasi icin try-catch bloklari icerisinde yazilmalidir.
+            //Bu try-catchi classta kullanilmama sebebi her yerde kullanibilir olması classin.
+            //Exceptionu class icinde ben firlatirim yakalandigi (instance alindigi ) yerde try-catch kullanilmali
+            try
+            {
+                cocuk.HarclikAl(100);
+                cocuk.TcNo = "123458t";
+                cocuk.Email = "jsad@gmail.com";
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
+            }
+            
+           
+             
+
+
+            #endregion
 
         }
     }
