@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_4_Kalitim.Personeller.Adres" Collapsed="true">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAQgAAAAAAAAAAAAAAAIAAAAAABAACAAAAAAAAAAA=</HashCode>
+      <FileName>Personeller\Adres.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_4_Kalitim.Personeller.ITPersoneli" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personeller\ITPersoneli.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_4_Kalitim.Personeller.Kisi" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAACAAAACAAAQA=</HashCode>
+      <FileName>Personeller\Kisi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_4_Kalitim.Personeller.MuhasebePersoneli" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personeller\MuhasebePersoneli.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_4_Kalitim.Personeller.Personel" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAEAA=</HashCode>
+      <FileName>Personeller\Personel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_4_Kalitim.Personeller.SatisPersoneli" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personeller\SatisPersoneli.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_4_Kalitim.Personeller.Sekreter" Collapsed="true">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personeller\Sekreter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="_4_Kalitim.Personeller.Departman" Collapsed="true">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAEAAAAQIA=</HashCode>
+      <FileName>Personeller\Departman.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
