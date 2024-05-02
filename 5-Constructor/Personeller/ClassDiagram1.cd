@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_5_Constructor.Personeller.Kisi" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAEBAAAAAAAAAAAAAAACAAAACAAAQA=</HashCode>
+      <FileName>Personeller\Kisi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5_Constructor.Personeller.Personel" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAEAA=</HashCode>
+      <FileName>Personeller\Personel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5_Constructor.Personeller.Sekreter" Collapsed="true">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personeller\Sekreter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5_Constructor.Personeller.SatisPersoneli" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personeller\SatisPersoneli.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5_Constructor.Personeller.MuhasebePersoneli" Collapsed="true">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personeller\MuhasebePersoneli.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5_Constructor.Personeller.ITPersoneli" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Personeller\ITPersoneli.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_5_Constructor.Personeller.Adres" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAQgAAAAAAAAAAAAAAAIAAAAAABAACAAAAAAAAAAA=</HashCode>
+      <FileName>Personeller\Adres.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="_5_Constructor.Personeller.Departman" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAEAAAAQIA=</HashCode>
+      <FileName>Personeller\Departman.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
