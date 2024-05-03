@@ -1,0 +1,28 @@
+﻿         * ReadOnly Property'ler Sadece Constructer icerisinden deger atanabilir.
+         * Ve Tanimlandigi yerde ilk deger atamasi yapilabilir.
+         * Birde readonly keyword degiskenler icin kullanilabilir
+         * public readonly string postakodu; => olabilir buna da ctor da degistirebiliriz sadece
+        
+         * Private set; => ise o class icerisinde herhangi bir yerde erişim yapilabilir.
+
+         * Nesne Olusurken ilk önce Property ve FieldLar Oluşur sonra Constructor calisir
+         * Field deger tanimlarsak constructor da ezerek degistirebiliriz
+
+         * Singleton Dizayn Pattern =>Bir Nesne Olusturur Ve her istendiginde o nesne kullanilir
+
+         * Tüm classlar object sinifindan Kalitim alir. Object Sınıfının Methodları;
+
+         GetHashCode() => Nesnelerin hash algoritmasina gore kodunu verir.Instance alindiginda
+         ayni nesne olup olmadigini kontrol eder.
+
+         Equals() => Verilen iki nesnenin esit olup olmadigini bool doner
+
+         GetType() => Reflections konusu ile ilgiildir.İsim,method,enum,ctor gibi özellikleri görebiliriz.
+
+         *Connection String => HErhangi bir database e baglanmak istedigimizde bu veri tabani ile ilgili bilgiler iceren 
+         ve ";" ile ayrilmis bir soz dizimidir =Server=LAPTOP-7J52A9UD\\SQLEXPRESS;Database=Northwind;Trusted_Connection=True;
+
+          SqlConnection _conn;  //SqlServer'a baglanmak icin gerekli
+          SqlCommand _command;  //Baglanti uzerinden sorgu calistirmak icin gerekli
+          SqlDataReader _reader;//Command Nesnesi UZerinden okuma yapmak icin gerekli
+          

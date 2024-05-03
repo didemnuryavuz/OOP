@@ -9,7 +9,7 @@ namespace _5_Constructor
 {
     public class SqlBaglanti
 
-        //Singleton Patten 
+        //Singleton Dizayn Pattern 
     {
         static SqlConnection baglanti;
         private SqlBaglanti()  //Private cekme nedeni her gelen sql nesnesinde ctor newlememeli.

@@ -42,6 +42,73 @@ namespace _5_Constructor
             SqlConnection sqlCon = SqlBaglanti.BaglantiVer();
             #endregion
 
+            //Bir Nesnenin Instance Alindigindaki Durum
+
+            #region GetHashCode
+
+            Temp temp = new Temp();     //Burada farklı bolgelerde tutulur hafizada
+            Temp temp1 = new Temp();
+            Temp temp2 = new Temp();
+
+            //GetHashCode metodu nesnenin hash algoritmasina gore kodunu verir
+            //İnstance alinan nesnelerin ayni nesne olup olmadigini anlamaya yarar.
+
+            
+            Console.WriteLine(temp.GetHashCode());
+            Console.WriteLine(temp1.GetHashCode());
+            Console.WriteLine(temp2.GetHashCode());
+
+            
+            Console.WriteLine("---------------------");
+
+            SqlConnection connection = SqlBaglanti.BaglantiVer();    //Burada hepsi ayni adresi tutar hafizada
+            SqlConnection connection1 = SqlBaglanti.BaglantiVer();   //Singleton Dizayn Pattern = Bir Nesne Olusturur 
+            SqlConnection connection2 = SqlBaglanti.BaglantiVer();   //Ve Her istendiginde o nesne kullanilir
+
+            Console.WriteLine(connection.GetHashCode());
+            Console.WriteLine(connection1.GetHashCode());
+            Console.WriteLine(connection2.GetHashCode());
+            #endregion
+
+            #region Equals
+
+            //Console.WriteLine("********************");
+            //Console.WriteLine( temp.Equals(temp1));
+            //Console.WriteLine(temp1.Equals(temp1));
+            //Console.WriteLine(temp1.Equals(temp2));
+            //Console.WriteLine("********************");
+
+            //Console.WriteLine(connection1.Equals(connection2));
+            //Console.WriteLine(connection2.Equals(connection3));
+            //Console.WriteLine(connection3.Equals(connection1)); 
+
+
+            #endregion
+
+
+            #region GetType
+
+            //Reflections konusu ile ilgiildir.
+            //GetType(). field ,method,prop enum ctor gibi ozellikleri gorebiliriz
+            Console.WriteLine(temp.GetType().Name);
+            Console.WriteLine(temp.GetType().FullName);    //Namespace+Name
+            Console.WriteLine(temp.GetType().Namespace);
+
+            //var sonuc = ali.GetType().GetProperties();
+            //foreach (var prop in sonuc)
+            //{
+            //    Console.WriteLine(prop.Name + " " + prop.CanWrite);
+            //    Console.WriteLine();
+            //}
+            //var metodlar = ali.GetType().GetMethods();
+            //foreach (var method in metodlar)
+            //{
+            //    Console.WriteLine(method.Name);
+
+            //}
+
+            #endregion
+
 
         }
     }

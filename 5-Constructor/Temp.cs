@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _5_Constructor.Personeller
+namespace _5_Constructor
 {
     public class Temp
     {

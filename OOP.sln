@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-Enum", "3-Enum\3-Enum.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-Kalitim", "4-Kalitim\4-Kalitim.csproj", "{2248FCFF-5874-4455-800C-8A20DC1EED4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-Constructor", "5-Constructor\5-Constructor.csproj", "{643E3D9C-40B6-4D44-915B-A79CA3EBD50B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5-Constructor", "5-Constructor\5-Constructor.csproj", "{643E3D9C-40B6-4D44-915B-A79CA3EBD50B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-KalitimTekrar", "6-KalitimTekrar\6-KalitimTekrar.csproj", "{921EC079-BBA0-454D-AD74-FCA7E5824326}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{643E3D9C-40B6-4D44-915B-A79CA3EBD50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{643E3D9C-40B6-4D44-915B-A79CA3EBD50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{643E3D9C-40B6-4D44-915B-A79CA3EBD50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921EC079-BBA0-454D-AD74-FCA7E5824326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921EC079-BBA0-454D-AD74-FCA7E5824326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921EC079-BBA0-454D-AD74-FCA7E5824326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921EC079-BBA0-454D-AD74-FCA7E5824326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
