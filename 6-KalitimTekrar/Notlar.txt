@@ -26,3 +26,12 @@
           SqlCommand _command;  //Baglanti uzerinden sorgu calistirmak icin gerekli
           SqlDataReader _reader;//Command Nesnesi UZerinden okuma yapmak icin gerekli
           
+          SqlDataAdapter() _adapter;  => DataSete Veri Doldurmaya Yarar
+          DataSet northwindDs = new DataSet(); => Yuklenen Datalari Tutar
+
+         *Try-Catch ile Connectionı Acip Kapatmaya DataAdapter ihtiyac duymaz
+            _adapter = new SqlDataAdapter("Select * from Shippers", _conn);
+            _adapter.Fill(northwindDs);
+
+        *Ayni projede farkli formlari calistirmak icin program.cs de Application.Run(new Form1()); 
+         Form1 nesnesi yerine istedigin nesneyi yaz

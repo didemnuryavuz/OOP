@@ -1,3 +1,4 @@
+using System.Data;
 using System.Data.SqlClient;
 
 namespace _6_KalitimTekrar
@@ -9,8 +10,11 @@ namespace _6_KalitimTekrar
         SqlDataReader _reader;//Command Nesnesi UZerinden okuma yapmak icin gerekli
         string _sql, constr = "Server=LAPTOP-7J52A9UD\\SQLEXPRESS;Database=Northwind;Trusted_Connection=True;";
 
+        //Button 3 Nesneleri 
+        DataSet northwindDs = new DataSet(); //Yuklenen Datalari Tutar
+        SqlDataAdapter _adapter;            //DataSete Veri Doldurmaya Yarar
 
-        List<Shipper> Shippers= new List<Shipper>();
+        List<Shipper> Shippers = new List<Shipper>();
         public Form1()
         {
             //Connection String Nedir:
@@ -51,7 +55,7 @@ namespace _6_KalitimTekrar
             try
             {
                 _conn.Open();
-                
+
                 _sql = "Select * From Shippers";
                 _command = new SqlCommand(_sql, _conn);
                 _reader = _command.ExecuteReader();
@@ -64,6 +68,7 @@ namespace _6_KalitimTekrar
                     Shippers.Add(shipper);
 
                 }
+                dataGridView1.DataSource = Shippers;
 
             }
             catch (Exception ex)
@@ -75,6 +80,51 @@ namespace _6_KalitimTekrar
             {
                 _conn?.Close();
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //Try-Catch ile Connectioný Acip Kapatmaya DataAdapter ihtiyac duymaz
+            _adapter = new SqlDataAdapter("Select * from Shippers", _conn);
+            _adapter.Fill(northwindDs);
+            dataGridView1.DataSource = northwindDs.Tables[0];
+
+            #region DataAdapTor kullanimi 2. Yol
+            //2. Kullanimi 
+            //_adapter.Fill(northwindDs,"Shippers");
+            //dataGridView1.DataSource = northwindDs.Tables["Shippers"];
+
+            #endregion
+
+            #region Birden Fazla Tabloyu cekmek
+            listBox1.Items.Clear();
+
+            _adapter.Fill(northwindDs, "Shippers");
+            listBox1.Items.Add("Shippers");
+
+            _adapter.SelectCommand.CommandText = "Select * from products";
+            _adapter.Fill(northwindDs, "Products");
+            listBox1.Items.Add("Products");
+
+            _adapter.SelectCommand.CommandText = "Select * from Customers";
+            _adapter.Fill(northwindDs, "Customers");
+            listBox1.Items.Add("Customers");
+
+            dataGridView1.DataSource = northwindDs.Tables["Customers"];
+
+            #endregion
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // MessageBox.Show(listBox1.SelectedItem.ToString());
+            dataGridView1.DataSource = northwindDs.Tables[listBox1.SelectedItem.ToString()];
         }
     }
 }
