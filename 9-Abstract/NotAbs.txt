@@ -1,0 +1,23 @@
+﻿    *MuzikAleti Base Clas oldugu icin Instance alinmasi mantikli degil Bunun icin abstract olarak(Sanal İsaretleme) yapilir.
+    *Abstract methodlar sadece abstract classlar icerisinde olusturulabilir.
+    *Abstract olarak isaretlenmis tum yapilar mutlaka override edilmelidir.
+    *Propertylerde abstract olarak tanimlanabilir.
+    *Abstract methodlarin govdesi olmaz.
+    *Kalitim verdigi classlarda mutlaka implimente edilmeleri gerekir
+    *Metod govdesinin yazilmesi zorunludur.
+    *Abstract methodlar kalitim aldigi yerde override edilmelidir.
+
+
+
+    ***Virtual olarak işaretlenmiş methodlara gövde yazilabilir fakat abstractlara yazilamaz***
+    ***Virtual mehtod her classta kullanılır fakat abstract method sadece abstract classta kullanilir***
+
+
+    ***Public List<MuzikAleti> muzikAletleri { get; set; } (1.Yontem) = new List<MuzikAleti>();
+
+    (2.Yontem) public Muzisyen() Constructor olusturup newlemek
+        {
+            muzikAletleri=new List<MuzikAleti>();
+        }
+     
+    

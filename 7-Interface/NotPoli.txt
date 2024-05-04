@@ -1,0 +1,5 @@
+﻿          * Virtual keyword kalitim verilen yerlerde bu metodu yeniden tanimlayabiliriz demek.
+            Bu metod ovveride edilebilir demektir.
+          * Propertyler de overide edilebilir.Dikdortgen Ornegi
+
+          * Using methodu nesneyi oluşturup , kullanip sonrasinda yok edilmesine yarar.
