@@ -35,3 +35,5 @@
 
         *Ayni projede farkli formlari calistirmak icin program.cs de Application.Run(new Form1()); 
          Form1 nesnesi yerine istedigin nesneyi yaz
+
+        *İlişkili tablolardaki verilerin silinmemesi onemli.

@@ -33,10 +33,12 @@
             textBox2 = new TextBox();
             label2 = new Label();
             panel1 = new Panel();
-            button1 = new Button();
-            button2 = new Button();
+            lblId = new Label();
             button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
             dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)northwindDs).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -76,6 +78,7 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(lblId);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
@@ -88,23 +91,15 @@
             panel1.Size = new Size(402, 172);
             panel1.TabIndex = 4;
             // 
-            // button1
+            // lblId
             // 
-            button1.Location = new Point(14, 127);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 4;
-            button1.Text = "Ekle";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(131, 127);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 5;
-            button2.Text = "Güncelle";
-            button2.UseVisualStyleBackColor = true;
+            lblId.AutoSize = true;
+            lblId.Location = new Point(3, 5);
+            lblId.Name = "lblId";
+            lblId.Size = new Size(17, 20);
+            lblId.TabIndex = 7;
+            lblId.Text = "0";
+            lblId.Click += lblId_Click;
             // 
             // button3
             // 
@@ -114,6 +109,27 @@
             button3.TabIndex = 6;
             button3.Text = "Sil";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(131, 127);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 5;
+            button2.Text = "Güncelle";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(14, 127);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 4;
+            button1.Text = "Ekle";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // dataGridView1
             // 
@@ -123,6 +139,7 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(402, 188);
             dataGridView1.TabIndex = 5;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // ShipperCrud
             // 
@@ -133,6 +150,7 @@
             Controls.Add(panel1);
             Name = "ShipperCrud";
             Text = "ShipperCrud";
+            ((System.ComponentModel.ISupportInitialize)northwindDs).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -150,5 +168,6 @@
         private Button button2;
         private Button button1;
         private DataGridView dataGridView1;
+        private Label lblId;
     }
 }
