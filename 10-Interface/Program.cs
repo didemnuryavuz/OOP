@@ -9,7 +9,7 @@
          * Interface'lerden instance alinmaz. Abstract Class'lar gibidir.
          * Sadece kalitim verirler.
          * 
-         * 
+         * Interface gorev tanimlarini ve yeteneklerini temsil eder.
          * 
          */
         static void Main(string[] args)
