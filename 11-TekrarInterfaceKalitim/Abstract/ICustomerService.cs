@@ -9,7 +9,7 @@ namespace _11_TekrarInterfaceKalitim.Abstract
 {
     public interface ICustomerService
     {
-        public Customer Getcustomer(string id);
+        public Customer? Getcustomer(string id);
 
         public List<Customer> Getall();
 

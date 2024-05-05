@@ -1,4 +1,6 @@
-﻿using _11_TekrarInterfaceKalitim.Concrete;
+﻿using _11_TekrarInterfaceKalitim.Abstract;
+using _11_TekrarInterfaceKalitim.Concrete;
+using _11_TekrarInterfaceKalitim.Dapper;
 using _11_TekrarInterfaceKalitim.Models;
 
 namespace _11_TekrarInterfaceKalitim
@@ -42,13 +44,44 @@ namespace _11_TekrarInterfaceKalitim
 
             #region Category Products
 
-            CategoryManager categoryManager = new CategoryManager();
-            var liste = categoryManager.GetProducts(2);
-            foreach (var item in liste)
-            {
-                Console.WriteLine($"{item.ProductId}\t{item.ProductName}\t{item.CategoryName}\t{item.UnitPrice}\t{item.UnitInStock}");
+            //CategoryManager categoryManager = new CategoryManager();
+            //var liste = categoryManager.GetProducts(2);
+            //foreach (var item in liste)
+            //{
+            //    Console.WriteLine($"{item.ProductId}\t{item.ProductName}\t{item.CategoryName}\t{item.UnitPrice}\t{item.UnitInStock}");
 
-            }
+            //}
+            #endregion
+
+            #region Dapper ile Veri Cekme
+
+            //CategoryManager categoryManager = new CategoryManager();
+            //var liste = categoryManager.GetProducts(3);
+            //foreach (var item in liste)
+            //{
+            //    Console.WriteLine($"{item.ProductId}\t{item.ProductName}\t{item.CategoryName}\t{item.UnitPrice}\t{item.UnitInStock}");
+
+            //}
+
+            #region CustomerManager
+
+            //CustomerManager customerManager = new CustomerManager();
+            //var liste = customerManager.aylikMusteriRapor(1997);
+
+            //foreach (var item in liste)
+            //{
+            //    Console.WriteLine(($"{item.CompanyName}\t{item.Ay}\t{item.Adet}"));
+            //}
+            #endregion
+            #endregion
+
+            #region Interface ile Calismak
+
+            // Interface'ler veri tipi olarak kullanilabilir
+            //Boyle bir durumda sadece Interface'de ki yetenekleri alacak sekilde bir instance olusturulur
+            ICategoryService AdoCategoryService = new CategoryManager();
+            ICategoryService DapperCategoryService = new CategoryManagerd();
+
             #endregion
         }
     }
