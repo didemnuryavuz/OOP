@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace _11_TekrarInterfaceKalitim.Dapper
 {
+    //2 Mayıs saat 2.42
     public class ProductManager : DapperBaseManager, IProductService
     {
         public int Add(string sql)

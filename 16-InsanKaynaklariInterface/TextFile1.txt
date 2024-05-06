@@ -1,0 +1,36 @@
+﻿// Kimya Boyama sektorundeki firma için InsanKaynaklari It Bolumune  ,Satis Bolumune ,Finans Bolumne Elemanlar Alacaktir.
+        // IT => Asp.net core ,c# ,Html ,Css ,SqlServer, En az 3 yil tecrubeli olmasi , KodYazsin ,WebSitesiTasarlasin,HataliYerleriDuzeltsin,
+        //Üniversitelerin mühendislik veya temel bilimler bölümlerinden mezun,
+        //.NET'in güncel versiyonlarında en az 3 yıl ve üzeri profesyonel deneyimi olan,
+        //Nesne yönelimli programlama(OOP) ve SOLID prensiplerine hakim,
+        //T-SQL ve ORM(Entity Framework - Nhibernate - Dapper) tecrübesi olan,
+        //Literatürü takip edebilecek seviyede İngilizce bilgisine sahip,
+        //Ekip çalışmasına önem veren,
+        //Yazılı ve sözlü iletişim becerileri gelişmiş,
+        //Yeni teknolojiler öğrenmeye ve sürekli gelişime önem veren,
+        //Tercihen Domain odaklı çalışma prensiplerine hakim; CQRS ve DDD tasarım kalıpları tecrübesi olan
+        // Uzaktan Calisabilir
+
+
+        // Satis => Testil Musteri Protfoyu olan , CenesiDusuk , Girisimci Ozellikleri olan B sinifi Ehliyet , SeyahateEngel durum olmasin
+        
+        // Finans Bolumune Donemsel Raporlama yapacak ,
+        // Bilanco hazirlayacak ,
+        // VergiHesaplayacak,
+        // istenilen Raporlari hazirlayacak
+        // Excel bilen ,
+        // Logo  ile hasir nesir olan eleman alinacak.
+        // Düzenli nakit akış oluşturabilecek
+        // Seyata Mumkunse Etmesin. Ofiste Çalişşın
+
+
+        // Butun Elemanlar Universite mezunu olacaktir. 
+
+        // Insan kaynaklarina basvuruda bulunacak  
+        // Bizlerde yukaridaki ozelliklere sahip başvurulari dikkate alacagiz. Uygun olmayanlar listelenmesin 
+        // List<Basvuru> basvurular. 
+        // foreach (var item in basvurular )
+        // {
+        //   Console.WriteLine(Departman => AdSoyad , MaasBeklentisi , Tecrubesi)
+        //
+        //   }
