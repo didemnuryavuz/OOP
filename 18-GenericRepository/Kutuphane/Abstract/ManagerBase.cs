@@ -1,15 +1,12 @@
-﻿using _17_NorthwindModels.Models.Abstract;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _17_NorthwindModels.Services.Abstract
-     //Generic Repos. Pattern
+namespace _18_GenericRepository.Kutuphane.Abstract
 {
-    //İkinci sorgulama primary key olan id ile yapildi.(Tid)
-    public abstract class BaseManager<T, Tid> : IManager<T> 
+    public abstract class ManagerBase<T, Tid> : IManager<T>
         where T : BaseEntity<Tid>
     {
         public int Delete(T entity)
