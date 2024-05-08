@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _18_GenericRepository.Kutuphane.Abstract
+namespace _26_TekrarLib.Personeller.Concrete
 {
-    public abstract class BaseEntity<T>
+    public enum Departman
     {
-        public T Id { get; set; }
+        IT = 1,
+
     }
 }

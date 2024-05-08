@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _18_GenericRepository.Kutuphane.Abstract
+namespace _18_GenericRepository.Okul.Abstract
 {
-    public abstract class BaseEntity<T>
+    public interface ISinif 
     {
-        public T Id { get; set; }
+        public void DersGor();
+            
     }
 }

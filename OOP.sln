@@ -41,23 +41,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18-GenericRepository", "18-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19-OPPGenelTekrar", "19-OPPGenelTekrar\19-OPPGenelTekrar.csproj", "{1B082FA8-219C-46C9-837D-41527555738A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20-Delegate", "20-Delegate\20-Delegate.csproj", "{B5D16603-7CD6-4946-9340-D02307A0222A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20-Delegate", "20-Delegate\20-Delegate.csproj", "{B5D16603-7CD6-4946-9340-D02307A0222A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23-DelegateSorgularLab", "DelegateSorgularLab\23-DelegateSorgularLab.csproj", "{9D99DF3D-229F-456E-8321-90349F0CBD9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23-DelegateSorgularLab", "DelegateSorgularLab\23-DelegateSorgularLab.csproj", "{9D99DF3D-229F-456E-8321-90349F0CBD9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21-ActionDelegate", "21-ActionDelegate\21-ActionDelegate.csproj", "{C84B7BFE-CCDC-4A78-88BA-6EB076DA7572}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21-ActionDelegate", "21-ActionDelegate\21-ActionDelegate.csproj", "{C84B7BFE-CCDC-4A78-88BA-6EB076DA7572}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22-FuncDelegate", "22-FuncDelegate\22-FuncDelegate.csproj", "{0D80A278-E263-463B-B105-1ACEF895721C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22-FuncDelegate", "22-FuncDelegate\22-FuncDelegate.csproj", "{0D80A278-E263-463B-B105-1ACEF895721C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23-DelegateTekrar", "23-DelegateTekrar\23-DelegateTekrar.csproj", "{FBE8111B-8B3A-445B-9F22-D86382392704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23-DelegateTekrar", "23-DelegateTekrar\23-DelegateTekrar.csproj", "{FBE8111B-8B3A-445B-9F22-D86382392704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24-Event", "24-Event\24-Event.csproj", "{67C8665D-E7E4-448B-A755-71AA43442E16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "24-Event", "24-Event\24-Event.csproj", "{67C8665D-E7E4-448B-A755-71AA43442E16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-EventTrafik", "25-EventTrafik\25-EventTrafik.csproj", "{4A1AC147-6466-4930-ADAF-E0E0A8BA3665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25-EventTrafik", "25-EventTrafik\25-EventTrafik.csproj", "{4A1AC147-6466-4930-ADAF-E0E0A8BA3665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-EventYangin", "EventYangin\25-EventYangin.csproj", "{9018D142-5C29-4134-A40E-5B8917E24E7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25-EventYangin", "EventYangin\25-EventYangin.csproj", "{9018D142-5C29-4134-A40E-5B8917E24E7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-EventBomba", "25-EventBomba\25-EventBomba.csproj", "{A3FD8473-E810-4643-AFA9-9476164D275C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25-EventBomba", "25-EventBomba\25-EventBomba.csproj", "{A3FD8473-E810-4643-AFA9-9476164D275C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26-GenelTekrar", "26-GenelTekrar\26-GenelTekrar.csproj", "{AC3DF90E-8328-478E-A0C3-CBA3865A8DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26-TekrarLib", "26-TekrarLib\26-TekrarLib.csproj", "{07BD5673-5DFA-4568-B2A9-1FDA4D6097F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +181,14 @@ Global
 		{A3FD8473-E810-4643-AFA9-9476164D275C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3FD8473-E810-4643-AFA9-9476164D275C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3FD8473-E810-4643-AFA9-9476164D275C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3DF90E-8328-478E-A0C3-CBA3865A8DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3DF90E-8328-478E-A0C3-CBA3865A8DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3DF90E-8328-478E-A0C3-CBA3865A8DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3DF90E-8328-478E-A0C3-CBA3865A8DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BD5673-5DFA-4568-B2A9-1FDA4D6097F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BD5673-5DFA-4568-B2A9-1FDA4D6097F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BD5673-5DFA-4568-B2A9-1FDA4D6097F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BD5673-5DFA-4568-B2A9-1FDA4D6097F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
