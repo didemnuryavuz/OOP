@@ -16,11 +16,31 @@ namespace _23_DelegateTekrar
         public delegate void Print(int value);
         static void Main(string[] args)
         {
+            #region Multicast Delegate
+            //MultiCast Delegate Ornegi.
+            // Birden Fazla metod temsil edebilir
+            //Print printDel = PrintNumber;
+            //printDel += PrintHexadecimal;
+            //printDel += PrintMoney;
+
             //Print printDel = PrintNumber;
             //printDel += PrintHexadecimal;
             //printDel += PrintMoney;
 
             //printDel(100000);
+            #endregion
+
+            #region Özel Delegate Türleri
+
+            #region Action Delegate => Bir Action'i temsil eder .
+            // Herhangi bir geri donus tipi olmayan ve Herhangi bir parametre almayan delegelere Action Delagate Denir
+            //1. Kullanim 
+            //Action action = EkranaYaz;
+            //action();
+            ////2. Kullanim
+            //Action action2 = ()=>Console.WriteLine("Test 2");
+            //action2();
+            #endregion
 
             #region Generic Action Delegate
             //Geriye bir deger donmeyen icerisine parametre alan metodlari tanimlar
@@ -60,7 +80,9 @@ namespace _23_DelegateTekrar
             //ozel bir sistem delegesidir.
 
             Predicate<int> TekCift = (value) => value % 2 == 0;
-           // Console.WriteLine(TekCift(5));
+            // Console.WriteLine(TekCift(5));
+            #endregion
+
             #endregion
 
 
